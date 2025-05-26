@@ -1,11 +1,5 @@
-# This is a sample Python script.
-
-# Press Ctrl+F5 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
 def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
+    
     print(f'Hi, {name}')  # Press F9 to toggle the breakpoint.
 
 def calcular_area_do_retangulo(largura, comprimento):
@@ -44,23 +38,25 @@ def brincar_de_plim(fim):
 
 
 
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('Vinicius')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
 # Chamar a função calcular area do retangulo
     resultado = calcular_area_do_retangulo(3,4)
     print(f'A area do retangulo é de: {resultado} m²')
+
 # Chamar a função calcular area do quadrado
     resultado = calcular_area_do_quadrado(5)
     print(f'A area do quadrado é de: {resultado} m²')
+    
 # Chamar a função calcular a area do triangulo
     resultado = calcular_area_do_triangulo(7,2)
     print(f'A area do triangulo é de: {resultado} m²')
+    
 # Executar uma contagem progressiva
     contagem_progressiva(11)
+    
 # Exibir o nome do candidato várias vezes
     apoiar_candidato('Faker', 100)
 # Brincar de Plim
